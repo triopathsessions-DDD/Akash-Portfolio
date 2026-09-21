@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer glow ring -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="none"
+        stroke="#2563EB" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Main badge background -->
+  <rect x="5" y="5" width="54" height="54" rx="13" fill="url(#bgGrad)"/>
+
+  <!-- Subtle sheen overlay -->
+  <rect x="5" y="5" width="54" height="27" rx="13" fill="url(#sheen)"/>
+
+  <!-- "AK" text — bold, centered -->
+  <text x="32" y="41"
+        text-anchor="middle"
+        dominant-baseline="auto"
+        font-family="'Exo 2', 'Segoe UI', Arial, sans-serif"
+        font-weight="800"
+        font-size="26"
+        letter-spacing="1"
+        fill="#FFFFFF">AK</text>
+</svg>
