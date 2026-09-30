@@ -8,8 +8,8 @@
 const CANDIDATE = {
 	name: "Akash Kondimoena",
 	role: "AI/ML Developer",
-	phone: "17046574866", // E.164 format (no + or spaces)
-	phoneDisplay: "+1 704-657-4866",
+	phone: "+1 331-328-8484", // E.164 format (no + or spaces)
+	phoneDisplay: "+1 331-328-8484",
 	email: "akashkondimoena@gmail.com",
 	linkedin: "https://www.linkedin.com/in/akash-kondimoena-6340132b1/", // ← Paste actual LinkedIn URL here
 	github: "https://github.com/akashkondimoena",
