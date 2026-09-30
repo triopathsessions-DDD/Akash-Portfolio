@@ -1,0 +1,11 @@
+# Netlify configuration for Akash Kondimoena Portfolio
+
+[build]
+  publish = "."   # deploy the root folder as-is (no build step)
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
